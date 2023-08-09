@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2022 Intel Corporation
 #
 # SPDX-License-Identifier: MIT
+# Revised by CDM
 
 name: build_all
 
