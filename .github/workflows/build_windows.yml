@@ -5,9 +5,9 @@
 
 name: build_windows
 
-on: 
+on:
+  push:
   workflow_call:
-
 env:
   WINDOWS_BASEKIT_URL: https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f96c71db-2c6c-45d9-8c1f-0348ef5885cf/w_BaseKit_p_2023.2.0.49396_offline.exe
   WINDOWS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/IRC_NAS/438527fc-7140-422c-a851-389f2791816b/w_HPCKit_p_2023.2.0.49441_offline.exe
